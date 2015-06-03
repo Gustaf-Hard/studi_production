@@ -1,0 +1,272 @@
+/* Site Colors:
+  #1A446C - blue grey
+  #689DC1 - light blue
+  #D4E6F4 - very light blue
+  #EEE4B9 - light tan
+  #8D0D19 - burgundy
+*/
+
+html { height: 100%; width: 100%; }
+body {
+  width: 100%; height: 100%; 
+  margin: 0; padding: 0; border: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 13px; 
+  background: #fff;
+
+}
+
+a { color: #000000; text-decoration: none}
+a:hover { color: #000000; text-decoration: none;}
+
+ /* Header styles */
+#header { 
+	height: 70px; 
+	margin: 0; padding: 0; text-align: left; 
+  background: #fafafa; color: #4a4a4a; border-bottom: 2px solid #d4d4d4;
+}
+#header h1 { padding: 1em; margin: 0; }
+
+h3 {
+	font-size: 140%; font-weight: normal; margin: 0px; line-height: 30px;
+}
+
+h4 {
+	font-size: 110%; font-weight: normal; margin: 0px; line-height: 30px;
+}
+
+
+
+.lesson_info {
+	color: #ccc;
+	text-align: center;
+}
+
+
+
+/* LEFT COLUMN STYLES */
+#left_column { 
+	display: table-cell; min-width: 169px; height:100%;  background: #eeeeee; border-right:
+	2px solid #e1e1e1; margin-top: 100px;
+}
+
+#add_content {
+	padding-left: 15px;
+	font-size: 9pt;
+	line-height: 200%;
+	
+}
+
+
+#menu_item {
+	border-bottom: 1px solid #e1e1e1;
+	border-top: 1px solid #e1e1e1;
+	padding: 10px 10px 10px 10px;
+	color: #000000;
+}
+#menu_item:hover {
+	background: #fafafa;
+	color: #000000;
+}
+
+#menu_item_selected {
+	border-bottom: 1px solid #e1e1e1;
+	border-top: 1px solid #e1e1e1;
+	padding: 10px 10px 10px 10px;
+	background: #d4e8e7; 
+	color: #000000;
+	font-weight: bold;
+	
+}
+
+
+
+
+
+/* MIDDLE COLUMN STYLES */
+
+#work_area { 
+	display: table; height: 100%; min-width: 1000px;
+}
+
+#new_lesson {
+	margin-left: 20px;
+}
+
+
+#middle_column { 
+	display: table-cell; background: #fff;
+}
+
+
+
+
+#filter_top {
+ display: table; background: #fafafa; border-bottom: 2px solid #eeeeee; width: 100%;
+	}
+	#filter_id {
+		display: table-cell; width: 70px; padding: 15px 5px 15px 15px; font-weight: bold;
+		float: left;
+	}
+
+	#filter_name {
+		display: table-cell; padding: 15px 5px 15px 5px; width: auto; float:left;
+	}
+
+	#filter_region {
+		display: table-cell; width: 70px; padding: 15px 15px 15px 15px; float: right;
+	}
+	#filter_approve {
+		display: table-cell; width: 70px; padding: 15px 15px 15px 15px; float: right;
+	}
+
+
+
+
+#item {
+	border-bottom: 2px solid #eeeeee; height: auto; display: table; width: 100%; min-width: 575px; color: #000000;
+}
+
+#item:hover {
+	background: #eeeeee; color: #000000;
+}
+
+#item_selected {
+	background: #d4e8e7; color: #000000;
+
+}
+
+#item_selected a{ color: #fff; }
+
+
+
+
+
+
+
+
+#item_id {
+	display: table-cell; width: 70px; padding: 15px 5px 15px 15px; font-weight: bold;
+	float: left;
+}
+
+#item_name {
+	display: table-cell; padding: 15px 5px 15px 5px; width: auto; float:left;
+}
+
+#item_region {
+	display: table-cell; width: 70px; padding: 15px 15px 15px 15px; float: right;
+}
+#item_approve {
+	display: table-cell; width: 70px; padding: 5px 15px 10px 15px; float: right;
+}
+
+
+#item_approve input[type=submit] {
+	padding:10px 20px; background:#ccc; border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; }
+
+
+
+
+#item_clear {
+	clear: both;
+}
+
+
+/* RIGHT COLUMN STYLES */
+#right_column { 
+	display: table-cell;
+	width: 30%; 
+	min-width: 250px; 
+	height: 100%;
+	padding: 15px 15px 15px 15px;
+	background: #FAFAFA;  
+	border-left: 2px solid #e1e1e1;  
+}
+
+#right_column hr {
+	border:
+	1px solid #cccccc;
+	width: 70%;
+
+}
+
+#task_spec {
+	border: 1px solid #e1e1e1;
+	padding: 10px;
+	width: 93%;
+	margin: 10px 0px 10px 0px;
+}
+
+#task_spec .upload_task {
+	text-align: center;
+}
+
+#task_spec:hover {
+	border-bottom: 1px solid #e1e1e1;
+	border-top: 1px solid #e1e1e1;
+	border-left: 4px solid #e1e1e1;
+	border-right: 4px solid #e1e1e1;
+	padding: 10px 10px 10px 7px;
+	
+	width: 93%;
+	background: #fff;
+}
+
+#right_column input[type="text"] {
+	width: 93%;
+	padding: 10px;
+	font-size: 14pt;
+	background: #fff;
+	border-radius: 5px;
+}
+
+#task_spec img {
+	width: 24%;
+	float: left;
+	margin-right: 15px;
+}
+
+
+.approve input[type=submit] {
+	padding:15px 40px; border:0 none; width: 100%;
+	color: #fff;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #0F9D58;
+	margin-top: 30px;
+	 }
+
+.unapprove input[type=submit] {
+	padding:5px 40px; border:0 none; width: 50%;
+	color: #fff;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #E39849;
+	margin-left: 25%;
+	margin-top: 15px;
+	 }
+
+
+
+/* Footer styles */
+#footer { 
+	clear: both;
+	 margin: 0; padding: 5px; 
+	text-align: center; 
+  background: #1A446C;  color: #D4E6F4; height: auto;
+}
+
+
+
+/* ommunication styles */
+div.message {
+	border: 2px solid #8D0D19;
+	color: #8D0D19; font-weight: bold;
+	margin: 1em 0 ; padding:; 1em;
+}
